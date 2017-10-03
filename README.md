@@ -3,6 +3,8 @@
 A batching [StatsD] reporter for [Coda Hale's metrics library] along
 with a simple StatsD client and server library.
 
+** This is a fork of https://github.com/orgsync/metrics-statsd that currently just avoids AOT-compiling the jar so it can be used with versions of clojure other than 1.8 **
+
 ## Rationale
 
 There are many implementations of the StatsD protocol, but most send a
@@ -23,7 +25,7 @@ requirements of your network.
 
 Leiningen:
 ```
-[metrics-statsd "0.1.8"]
+[com.farmlogs/metrics-statsd "0.1.9"]
 ```
 
 Maven:
