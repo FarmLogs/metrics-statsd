@@ -12,7 +12,7 @@
 ;; See the License for the specific language governing permissions and
 ;; limitations under the License.
 
-(defproject com.farmlogs/metrics-statsd "0.1.10-SNAPSHOT"
+(defproject com.farmlogs/metrics-statsd "0.1.10-1.9.0-SNAPSHOT"
   :description "A batching StatsD reporter for Coda Hale's metrics library"
   :url "https://github.com/orgsync/metrics-statsd"
   :license {:name "Apache 2.0"
@@ -22,7 +22,7 @@
                  [gloss "0.2.6"]
                  [io.dropwizard.metrics/metrics-core "3.1.2"]
                  [manifold "0.1.6-alpha3"]
-                 [org.clojure/clojure "1.9.0-alpha20"]]
+                 [org.clojure/clojure "1.9.0-beta1"]]
   :deploy-repositories [["releases" :clojars]]
   :aot [metrics-statsd.core]
   :jvm-opts ["-Dclojure.compiler.direct-linking=true"]
