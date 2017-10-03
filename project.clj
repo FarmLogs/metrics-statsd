@@ -21,8 +21,9 @@
                  [byte-streams "0.2.2"]
                  [gloss "0.2.6"]
                  [io.dropwizard.metrics/metrics-core "3.1.2"]
-                 [manifold "0.1.6-alpha3"]]
+                 [manifold "0.1.6-alpha3"]
+                 [org.clojure/clojure "1.9.0-alpha20"]]
   :deploy-repositories [["releases" :clojars]]
+  :aot [metrics-statsd.core]
   :jvm-opts ["-Dclojure.compiler.direct-linking=true"]
-  :profiles {:dev {:dependencies [[criterium "0.4.4"]
-                                  [org.clojure/clojure "1.8.0"]]}})
+  :profiles {:dev {:dependencies [[criterium "0.4.4"]]}})
