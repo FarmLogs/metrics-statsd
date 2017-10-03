@@ -12,7 +12,7 @@
 ;; See the License for the specific language governing permissions and
 ;; limitations under the License.
 
-(defproject com.farmlogs/metrics-statsd "0.1.10-1.9.0-SNAPSHOT"
+(defproject com.farmlogs/metrics-statsd "0.1.10-1.9.0"
   :description "A batching StatsD reporter for Coda Hale's metrics library"
   :url "https://github.com/orgsync/metrics-statsd"
   :license {:name "Apache 2.0"
